@@ -2,6 +2,8 @@ body {
     background-image: url(../img/clouds_background_1.png);
     background-size: cover;
     background-position: top;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 header {
     display: flex;
@@ -281,7 +283,9 @@ header {
     body {
         background-image: url(../img/clouds_background_2.png);
         background-size: cover;
-        background-position: top;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        
     }
     header {
         display: flex;
